@@ -12,6 +12,8 @@ const ETHEREUM_CHAIN_IDS: Partial<Record<SupportedChains, number>> = {
   [SupportedChains.Ethmain]: 1,
   [SupportedChains.Ethgoerli]: 5,
   [SupportedChains.Ethsepolia]: 11155111,
+  [SupportedChains.ArbitrumOne]: 42161,
+  [SupportedChains.ArbitrumSepolia]: 421614,
 } as const;
 
 function getApiBaseURL(chain: SupportedChains = SupportedChains.Ethmain): string {

@@ -9,6 +9,7 @@
   },
   "types": "./lib/index.d.ts",
   "dependencies": {
+    "ethereum-input-data-decoder": "^0.4.2",
     "xmlhttprequest": "^1.8.0"
   },
   "devDependencies": {
@@ -34,7 +35,8 @@
     "test:coverage:report": "codecov",
     "semantic-release": "semantic-release",
     "clean:build": "rimraf lib",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "build": "tsc -p tsconfig.json"
   },
   "repository": {
     "type": "git",
