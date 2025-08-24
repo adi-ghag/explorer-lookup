@@ -40,12 +40,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/blockchain-certificates/explorer-lookup.git"
+    "url": "git+https://github.com/adi-ghag/explorer-lookup.git"
   },
-  "author": "Julien Fraichot",
+  "author": "Adi Ghag",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/blockchain-certificates/explorer-lookup/issues"
+    "url": "https://github.com/adi-ghag/explorer-lookup/issues"
   },
-  "homepage": "https://github.com/blockchain-certificates/explorer-lookup#readme"
+  "homepage": "https://github.com/adi-ghag/explorer-lookup#readme"
 }
