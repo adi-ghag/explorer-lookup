@@ -7,7 +7,7 @@ export enum SupportedChains {
   Ethsepolia = 'ethsepolia',
   ArbitrumOne = 'arbitrumone',
   ArbitrumSepolia = 'arbitrumsepolia',
-  Bloxberg = 'bloxberg',
+  Ethbloxberg = 'ethbloxberg',
   Mocknet = 'mocknet',
   Regtest = 'regtest',
   Testnet = 'testnet'

@@ -18,6 +18,9 @@ export function getExplorersByChain (chain: SupportedChains, explorerAPIs: TExpl
     case BLOCKCHAINS[SupportedChains.Ethrinkeby].code:
     case BLOCKCHAINS[SupportedChains.Ethgoerli].code:
     case BLOCKCHAINS[SupportedChains.Ethsepolia].code:
+    case BLOCKCHAINS[SupportedChains.ArbitrumOne].code:
+    case BLOCKCHAINS[SupportedChains.ArbitrumSepolia].code:
+    case BLOCKCHAINS[SupportedChains.Ethbloxberg].code:
       return explorerAPIs.ethereum;
     default:
       if (!explorerAPIs.custom?.length) {

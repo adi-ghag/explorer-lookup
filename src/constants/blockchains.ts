@@ -114,13 +114,13 @@ const BLOCKCHAINS: { [chain in SupportedChains]: IBlockchainObject } = {
      }
    },
    // --- NEW: bloxberg (Blockscout) ---
-   [SupportedChains.Bloxberg]: {
-     code: SupportedChains.Bloxberg,
+   [SupportedChains.Ethbloxberg]: {
+     code: SupportedChains.Ethbloxberg,
      blinkCode: BlinkCodes.eth,
      name: 'bloxberg',
      prefixes: ['0x'],
      test: false,
-     signatureValue: 'bloxberg',
+     signatureValue: 'ethbloxberg',
      transactionTemplates: {
        full: `https://blockexplorer.bloxberg.org/tx/${TRANSACTION_ID_PLACEHOLDER}`,
        raw: `https://blockexplorer.bloxberg.org/tx/${TRANSACTION_ID_PLACEHOLDER}`
