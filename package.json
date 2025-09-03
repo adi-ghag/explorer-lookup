@@ -1,6 +1,6 @@
 {
-  "name": "@blockcerts/explorer-lookup",
-  "version": "0.0.0-dev",
+  "name": "@adityaghag/explorer-lookup",
+  "version": "1.0.0",
   "description": "A low level blockchain explorers lookup",
   "type": "module",
   "exports": {
