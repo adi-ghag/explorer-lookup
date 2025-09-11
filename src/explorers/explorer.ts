@@ -2,6 +2,7 @@ import { buildTransactionServiceUrl } from '../services/transaction-apis.js';
 import request from '../services/request.js';
 import { explorerApi as EtherscanApi } from './ethereum/etherscan.js';
 import { explorerApi as BlockCypherETHApi } from './ethereum/blockcypher.js';
+import { explorerApi as BlockscoutApi } from './ethereum/blockscout.js';
 import { explorerApi as BlockstreamApi } from './bitcoin/blockstream.js';
 import { explorerApi as BlockCypherBTCApi } from './bitcoin/blockcypher.js';
 import { type ExplorerAPI, type TExplorerFunctionsArray } from '../models/explorers';
@@ -48,7 +49,8 @@ const BitcoinTransactionAPIArray = [
 
 const EthereumTransactionAPIArray = [
   EtherscanApi,
-  BlockCypherETHApi
+  BlockCypherETHApi,
+  BlockscoutApi
 ];
 
 const BlockchainExplorersWithSpentOutputInfo = [

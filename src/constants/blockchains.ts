@@ -123,7 +123,7 @@ const BLOCKCHAINS: { [chain in SupportedChains]: IBlockchainObject } = {
      signatureValue: 'ethbloxberg',
      transactionTemplates: {
        full: `https://blockexplorer.bloxberg.org/tx/${TRANSACTION_ID_PLACEHOLDER}`,
-       raw: `https://blockexplorer.bloxberg.org/tx/${TRANSACTION_ID_PLACEHOLDER}`
+       raw: `https://blockexplorer.bloxberg.org/api?module=transaction&action=gettxinfo&txhash=${TRANSACTION_ID_PLACEHOLDER}`
      }
   },
   [SupportedChains.Mocknet]: {
