@@ -78,7 +78,7 @@ describe('getExplorersByChain test suite', function () {
       it('should use the ethereum specific explorers', function () {
         const selectedSelectors = getExplorersByChain(SupportedChains.Ethmain, explorers.getDefaultExplorers());
         // because they are wrapped, we don't necessarily have the deep nature of the result, so we use a weak test to ensure
-        expect(selectedSelectors.length).toBe(2);
+        expect(selectedSelectors.length).toBe(3);
       });
     });
 
@@ -86,7 +86,7 @@ describe('getExplorersByChain test suite', function () {
       it('should use the ethereum specific explorers', function () {
         const selectedSelectors = getExplorersByChain(SupportedChains.Ethropst, explorers.getDefaultExplorers());
         // because they are wrapped, we don't necessarily have the deep nature of the result, so we use a weak test to ensure
-        expect(selectedSelectors.length).toBe(2);
+        expect(selectedSelectors.length).toBe(3);
       });
     });
 
@@ -94,7 +94,7 @@ describe('getExplorersByChain test suite', function () {
       it('should use the ethereum specific explorers', function () {
         const selectedSelectors = getExplorersByChain(SupportedChains.Ethrinkeby, explorers.getDefaultExplorers());
         // because they are wrapped, we don't necessarily have the deep nature of the result, so we use a weak test to ensure
-        expect(selectedSelectors.length).toBe(2);
+        expect(selectedSelectors.length).toBe(3);
       });
     });
 
@@ -102,7 +102,7 @@ describe('getExplorersByChain test suite', function () {
       it('should use the ethereum specific explorers', function () {
         const selectedSelectors = getExplorersByChain(SupportedChains.Ethgoerli, explorers.getDefaultExplorers());
         // because they are wrapped, we don't necessarily have the deep nature of the result, so we use a weak test to ensure
-        expect(selectedSelectors.length).toBe(2);
+        expect(selectedSelectors.length).toBe(3);
       });
     });
 
@@ -110,7 +110,7 @@ describe('getExplorersByChain test suite', function () {
       it('should use the ethereum specific explorers', function () {
         const selectedSelectors = getExplorersByChain(SupportedChains.Ethsepolia, explorers.getDefaultExplorers());
         // because they are wrapped, we don't necessarily have the deep nature of the result, so we use a weak test to ensure
-        expect(selectedSelectors.length).toBe(2);
+        expect(selectedSelectors.length).toBe(3);
       });
     });
 
